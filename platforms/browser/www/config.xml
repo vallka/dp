@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.gellifique.justshop" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>Dorothy Perkings Careers</name>
+    <description>
+        Dorothy Perkings Careers
+    </description>
+    <author email="support@vallka.com" href="http://vallka.com">
+        Dorothy Perkings Careers
+    </author>
+    <content src="index.html" />
+    <allow-navigation href="*" />
+    <access origin="*" />
+    <preference name="permissions" value="none" />
+</widget>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.gellifique.justshop" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Dorothy Perkings Careers</name>
+    <description>
+        Dorothy Perkings Careers
+    </description>
+    <author email="support@vallka.com" href="http://vallka.com">
+        Dorothy Perkings Careers
+    </author>
+    <content src="index.html" />
+
+    <!-- App requested permission -->
+    <preference name="permissions" value="none"/>
+
+    <!-- PLUGINS * PLUGINS * PLUGINS -->
+    <plugin name="cordova-plugin-device"         source="npm"  />
+    <plugin name="cordova-plugin-whitelist"      source="npm"  />
+
+    <!-- WHITELIST * WHITELIST * WHITELIST -->
+    <!-- https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/the-whitelist-system.md -->
+    <allow-navigation href="*" />
+    <!-- <allow-intent href="*" /> -->
+    <access origin="*" /> <!-- Required for iOS9 -->
+</widget>
